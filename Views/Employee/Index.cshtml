@@ -4,7 +4,7 @@
 @{
 }
 
-@model Employee[]
+@model List<Employee>
 
 
 
@@ -21,6 +21,7 @@
         @foreach (var emloyeeDetails in Model)
         {
             <tr>
+                
                 <td>@emloyeeDetails.EmployeeId</td>
                 <td>@emloyeeDetails.FirstName</td>
                 <td>@emloyeeDetails.LastName</td>

@@ -3,7 +3,7 @@
     public class Employee
     {
 
-        public int EmployeeId { get; set; }
+        public string EmployeeId { get; set; }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -13,6 +13,7 @@
         public string Department { get; set; }
 
 
+        /*
         public Employee(int EmployeeId, string FirstName, string LastName, string Email, string Department) { 
 
             this.EmployeeId = EmployeeId;
@@ -22,5 +23,8 @@
             this.Department = Department;
         
         }
+
+        */
+        
     }
 }
